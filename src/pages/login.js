@@ -3,7 +3,7 @@ import img1 from "../img/cryft-logo.png";
 import { Link } from "react-router-dom";
 import "../styles/login.css";
 
-const Login = ({ label, text, type, placeholder }) => {
+const Login = () => {
   return (
     <div className="login">
       <div className="login--left">

@@ -2,7 +2,7 @@ import React from "react";
 import { BiTransfer } from "react-icons/bi";
 import { walletData } from "../../userdata";
 
-export const WalletPage = (props) => {
+export const WalletPage = () => {
   const walletInfo = walletData.map((userCoins) => {
     return <WalletSection {...userCoins} />;
   });
